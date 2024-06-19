@@ -9,6 +9,9 @@ const lang = {
     profile: "Frontend Web Developer",
     des: "I transform ideas into stunning, functional websites that delight users.",
     keepScrolling: "Keep scrolling to know me",
+    technical: "TECHNICAL SKILLS",
+    project: "Projects",
+    contact: "Contact",
   },
   hi: {
     name: "श्वेता-वी",
@@ -20,6 +23,9 @@ const lang = {
     profile: "फ्रंटएंड वेब डेवलपर",
     des: "मैं विचारों को आश्चर्यजनक, कार्यात्मक वेबसाइटों में बदलता हूं जो उपयोगकर्ताओं को प्रसन्न करती हैं।",
     keepScrolling: "मुझे जानने के लिए स्क्रॉल करते रहें",
+    technical: "तकनीकी कौशल",
+    project: "परियोजनाओं",
+    contact: "संपर्क",
   },
   ka: {
     name: "ಶ್ವೇತಾ-ವಿ",
@@ -31,6 +37,9 @@ const lang = {
     profile: "ಮುಂಭಾಗದ ವೆಬ್ ಡೆವಲಪರ್",
     des: "ನಾನು ಆಲೋಚನೆಗಳನ್ನು ಅದ್ಭುತ, ಕ್ರಿಯಾತ್ಮಕ ವೆಬ್‌ಸೈಟ್‌ಗಳಾಗಿ ಮಾರ್ಪಡಿಸುತ್ತೇನೆ ಅದು ಬಳಕೆದಾರರನ್ನು ಸಂತೋಷಪಡಿಸುತ್ತದೆ.",
     keepScrolling: "ನನ್ನನ್ನು ತಿಳಿದುಕೊಳ್ಳಲು ಸ್ಕ್ರೋಲಿಂಗ್ ಮಾಡುತ್ತಿರಿ",
+    technical: "ತಕನೀಕಿ ಕೌಶಲ್ಯಗಳು",
+    project: "ಯೋಜನೆಗಳು",
+    contact: "ಸಂಪರ್ಕಿಸಿ",
   },
 };
 export default lang;

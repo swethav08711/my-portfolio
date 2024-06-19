@@ -1,16 +1,33 @@
 import React from "react";
 import lang from "../utils/languageConstant";
 import { useSelector } from "react-redux";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
-import PhoneIcon from "@mui/icons-material/Phone";
+import email from "../resources/icons/email.png";
+import github from "../resources/icons/github.png";
+import linked from "../resources/icons/linked.png";
+import phone from "../resources/icons/phone.png";
 const About = () => {
   const configLanguage = useSelector((store) => store?.config?.language);
-
+  const skills = [
+    {
+      label: "email",
+      icon: email,
+    },
+    {
+      label: "github",
+      icon: github,
+    },
+    {
+      label: "linked",
+      icon: linked,
+    },
+    {
+      label: "phone",
+      icon: phone,
+    },
+  ];
   return (
     <div id="About">
-      <div className=" dark:bg-[rgb(38,41,53)] h-[450px]">
+      <div className=" dark:bg-[rgb(38,41,53)] ">
         <div className="md:container mx-auto   p-7 dark:text-white py-14">
           <div className="flex flex-col lg:flex-row gap-4">
             <div>
@@ -51,11 +68,13 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between lg:w-1/5   w-full">
-            <GitHubIcon />
-            <LinkedInIcon />
-            <EmailIcon />
-            <PhoneIcon />
+          <div className="flex lg:justify-between lg:w-1/4  justify-evenly w-full py-9 mx-4 ">
+            {skills.map((ele) => (
+              <img
+                className="w-8 h-8 filter invert-0 dark:invert dark:brightness-0 dark:contrast-200"
+                src={ele.icon}
+              />
+            ))}
           </div>
         </div>
       </div>
