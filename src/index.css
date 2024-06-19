@@ -13,4 +13,15 @@
     -moz-osx-font-smoothing: grayscale;
     font-family: "Rubik";
   }
+  .text-bg::before {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 6rem;
+      color: rgba(0, 0, 0, 0.1);
+      white-space: nowrap;
+      z-index: -1;
+    }
 }
