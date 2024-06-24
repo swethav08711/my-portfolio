@@ -26,7 +26,7 @@ const About = () => {
     },
   ];
   return (
-    <div id="About">
+    <div id="about">
       <div className=" dark:bg-[rgb(38,41,53)] ">
         <div className="md:container mx-auto   p-7 dark:text-white py-14">
           <div className="flex flex-col lg:flex-row gap-4">

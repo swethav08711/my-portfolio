@@ -8,7 +8,7 @@ import pharmEasy from "../resources/projectImage/pharmEasy.png";
 const Project = () => {
   const configLanguage = useSelector((store) => store?.config?.language);
   return (
-
+    <div id="project">
       <div className="dark:bg-[rgb(38,41,53)] dark:text-white pb-12">
         <div class="flex items-center  py-12">
           <div class="flex-grow border-t border-2 border-teal-100"></div>
@@ -139,7 +139,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-
+    </div>
   );
 };
 

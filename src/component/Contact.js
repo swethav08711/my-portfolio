@@ -27,8 +27,11 @@ const Contact = () => {
       icon: phone,
     },
   ];
+  console.log(lang[configLanguage]?.navBar[3]);
   return (
-
+    <div
+      id="contact"
+    >
       <div className="dark:bg-[rgb(38,41,53)] dark:text-white pb-12">
         <div class="flex items-center  py-12">
           <div class="flex-grow border-t border-2 border-teal-100"></div>
@@ -79,7 +82,7 @@ const Contact = () => {
           <p className="text-xs py-5">Designed & built by Swetha v</p>
         </div>
       </div>
-
+    </div>
   );
 };
 

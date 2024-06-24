@@ -76,27 +76,29 @@ const Technology = () => {
     },
   ];
   return (
-    <div className="dark:bg-[rgb(38,41,53)] dark:text-white pb-12">
-      <div class="flex items-center  py-12">
-        <div class="flex-grow border-t border-2 border-teal-100"></div>
-        <span class="mx-4 lg:text-4xl  md:text-3xl text-2xl drop-shadow-2xl  text-shadow-sm ">
-          {lang[configLanguage].technical}
-        </span>
-        <div class="flex-grow border-t border-2 border-teal-100"></div>
-      </div>
-      <div className="container mx-auto">
-        <div className="flex gap-5 flex-wrap justify-center items-center">
-          {skills.map((ele) => (
-            <div className=" border min-w-44 min-h-36 flex flex-col justify-center items-center shadow-sm">
-              <img
-                className="w-10 h-10 filter invert-0 dark:invert dark:brightness-0 dark:contrast-200"
-                src={ele.icon}
-              />
-              <p className="py-5 dark:text-white font-elite tracking-wider">
-                {ele.label}
-              </p>
-            </div>
-          ))}
+    <div id="technologies">
+      <div className="dark:bg-[rgb(38,41,53)] dark:text-white pb-12">
+        <div class="flex items-center  py-12">
+          <div class="flex-grow border-t border-2 border-teal-100"></div>
+          <span class="mx-4 lg:text-4xl  md:text-3xl text-2xl drop-shadow-2xl  text-shadow-sm ">
+            {lang[configLanguage].technical}
+          </span>
+          <div class="flex-grow border-t border-2 border-teal-100"></div>
+        </div>
+        <div className="container mx-auto">
+          <div className="flex gap-5 flex-wrap justify-center items-center">
+            {skills.map((ele) => (
+              <div className=" border min-w-44 min-h-36 flex flex-col justify-center items-center shadow-sm">
+                <img
+                  className="w-10 h-10 filter invert-0 dark:invert dark:brightness-0 dark:contrast-200"
+                  src={ele.icon}
+                />
+                <p className="py-5 dark:text-white font-elite tracking-wider">
+                  {ele.label}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

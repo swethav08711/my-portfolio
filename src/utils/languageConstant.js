@@ -1,7 +1,7 @@
 const lang = {
   en: {
     name: "Swetha-V",
-    navBar: ["About", "Technologies", "Project", "Skills", "Contact"],
+    navBar: ["About", "Technologies", "Project", "Contact"],
     resume: "resume",
     hello: "Hello",
     am: "I'm",
@@ -15,7 +15,7 @@ const lang = {
   },
   hi: {
     name: "श्वेता-वी",
-    navBar: ["बारे में", "प्रौद्योगिकियों", "परियोजना", "कौशल", "संपर्क"],
+    navBar: ["बारे में", "प्रौद्योगिकियों", "परियोजना", "संपर्क"],
     resume: "रिज़्यूमे ",
     hello: "नमस्ते",
     am: "मैं हूँ",
@@ -26,10 +26,11 @@ const lang = {
     technical: "तकनीकी कौशल",
     project: "परियोजनाओं",
     contact: "संपर्क",
+    hrefLink: "/about",
   },
   ka: {
     name: "ಶ್ವೇತಾ-ವಿ",
-    navBar: ["ಬಗ್ಗೆ", "ತಂತ್ರಜ್ಞಾನಗಳು", "ಯೋಜನೆ", "ಕೌಶಲ್ಯಗಳು", "ಸಂಪರ್ಕಿಸಿ"],
+    navBar: ["ಬಗ್ಗೆ", "ತಂತ್ರಜ್ಞಾನಗಳು", "ಯೋಜನೆ", "ಸಂಪರ್ಕಿಸಿ"],
     resume: "ರೆಸ್ಯೂಮ್",
     hello: "ನಮಸ್ಕಾರ",
     am: "ನಾನು",

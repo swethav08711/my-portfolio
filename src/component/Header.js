@@ -29,7 +29,7 @@ const Header = () => {
   const handleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
-  console.log(theme);
+
   return (
     <div className="shadow-lg bg-white dark:bg-[rgb(38,41,53)] dark:text-white">
       <div className="flex flex-col md:flex-row justify-between items-center gap-1 sm:gap-2  lg:container   mx-auto md:px-2  py-4">
@@ -41,8 +41,8 @@ const Header = () => {
         <div className="w-full md:w-10/12 flex  justify-evenly ">
           <ul className="hidden  w-2/3 sm:flex justify-evenly text-lg items-center ">
             {lang[configLanguage]?.navBar?.map((ele, index) => (
-              <li key={index} value={ele} id={ele}>
-                {ele}
+              <li key={index} value={ele} id={ele} className="scroll-smooth">
+                <a href={"#" + lang?.en?.navBar[index]?.toLowerCase()}>{ele}</a>
               </li>
             ))}
           </ul>
