@@ -59,7 +59,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:self-end flex-col lg:flex-row flex border w-[85%] h-full lg:rounded-tr-xl lg:rounded-br-xl hover:shadow-md  ">
+            <div className="lg:self-end flex-col-reverse  lg:flex-row flex border w-[85%] h-full lg:rounded-tr-xl lg:rounded-br-xl hover:shadow-md  ">
               <div className="p-3">
                 <h2 className="py-1 font-bold  text-xl">Google.com</h2>
                 <p className="text-sm">
@@ -137,7 +137,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className=" lg:self-end flex flex-col lg:flex-row border w-[85%] h-full lg:rounded-tr-xl lg:rounded-br-xl hover:shadow-md  ">
+            <div className=" lg:self-end flex flex-col-reverse lg:flex-row border w-[85%] h-full lg:rounded-tr-xl lg:rounded-br-xl hover:shadow-md  ">
               <div className="p-3">
                 <h2 className="py-1 font-bold  text-xl">PharmEasy.com</h2>
                 <p className="text-sm">
