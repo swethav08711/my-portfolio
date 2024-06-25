@@ -40,12 +40,22 @@ const Project = () => {
                   <p className="border px-2 py-1 text-sm">Gemini Api</p>
                 </div>
                 <div className="flex gap-3 py-3">
-                  <button className="px-6 py-2 text-lg border rounded-lg uppercase hover:bg-[rgb(38,41,53)] hover:text-white dark:hover:bg-white dark:hover:text-black ">
-                    code
-                  </button>
-                  <button className="uppercase px-6 py-2 text-lg border rounded-lg bg-[rgb(38,41,53)] text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-[rgb(38,41,53)] dark:hover:text-white">
-                    live
-                  </button>
+                  <a
+                    href="https://github.com/swethav08711/NetflixGPT"
+                    target="_blank"
+                  >
+                    <button className="px-6 py-2 text-lg border rounded-lg uppercase hover:bg-[rgb(38,41,53)] hover:text-white dark:hover:bg-white dark:hover:text-black ">
+                      code
+                    </button>
+                  </a>
+                  <a
+                    href="https://netflix-gpt-one-omega.vercel.app/"
+                    target="_blank"
+                  >
+                    <button className="uppercase px-6 py-2 text-lg border rounded-lg bg-[rgb(38,41,53)] text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-[rgb(38,41,53)] dark:hover:text-white">
+                      live
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -64,12 +74,22 @@ const Project = () => {
                   <p className="border px-2 py-1 text-sm">Tailwind</p>
                 </div>
                 <div className="flex gap-3 py-3">
-                  <button className="px-6 py-2 text-lg border rounded-lg uppercase hover:bg-[rgb(38,41,53)] hover:text-white dark:hover:bg-white dark:hover:text-black ">
-                    code
-                  </button>
-                  <button className="uppercase px-6 py-2 text-lg border rounded-lg bg-[rgb(38,41,53)] text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-[rgb(38,41,53)] dark:hover:text-white">
-                    live
-                  </button>
+                  <a
+                    href="https://github.com/swethav08711/google-clone-nextjs"
+                    target="_blank"
+                  >
+                    <button className="px-6 py-2 text-lg border rounded-lg uppercase hover:bg-[rgb(38,41,53)] hover:text-white dark:hover:bg-white dark:hover:text-black ">
+                      code
+                    </button>
+                  </a>
+                  <a
+                    href="https://google-clone-nextjs-fu3odaghi-swethav.vercel.app/"
+                    target="_blank"
+                  >
+                    <button className="uppercase px-6 py-2 text-lg border rounded-lg bg-[rgb(38,41,53)] text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-[rgb(38,41,53)] dark:hover:text-white">
+                      live
+                    </button>
+                  </a>
                 </div>
               </div>
               <img
@@ -98,12 +118,22 @@ const Project = () => {
                   <p className="border px-2 py-1 text-sm">NextJS</p>
                 </div>
                 <div className="flex gap-3 py-3">
-                  <button className="px-6 py-2 text-lg border rounded-lg uppercase hover:bg-[rgb(38,41,53)] hover:text-white dark:hover:bg-white dark:hover:text-black ">
-                    code
-                  </button>
-                  <button className="uppercase px-6 py-2 text-lg border rounded-lg bg-[rgb(38,41,53)] text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-[rgb(38,41,53)] dark:hover:text-white">
-                    live
-                  </button>
+                  <a
+                    href="https://github.com/swethav08711/instagram-clone-nextjs"
+                    target="_blank"
+                  >
+                    <button className="px-6 py-2 text-lg border rounded-lg uppercase hover:bg-[rgb(38,41,53)] hover:text-white dark:hover:bg-white dark:hover:text-black ">
+                      code
+                    </button>
+                  </a>
+                  <a
+                    href="https://instagram-clone-nextjs-nine.vercel.app/"
+                    target="_blank"
+                  >
+                    <button className="uppercase px-6 py-2 text-lg border rounded-lg bg-[rgb(38,41,53)] text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-[rgb(38,41,53)] dark:hover:text-white">
+                      live
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -123,12 +153,22 @@ const Project = () => {
                   <p className="border px-2 py-1 text-sm">API</p>
                 </div>
                 <div className="flex gap-3 py-3">
-                  <button className="px-6 py-2 text-lg border rounded-lg uppercase hover:bg-[rgb(38,41,53)] hover:text-white dark:hover:bg-white dark:hover:text-black ">
-                    code
-                  </button>
-                  <button className="uppercase px-6 py-2 text-lg border rounded-lg bg-[rgb(38,41,53)] text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-[rgb(38,41,53)] dark:hover:text-white">
-                    live
-                  </button>
+                  <a
+                    href="https://github.com/swethav08711/PharmEasy"
+                    target="_blank"
+                  >
+                    <button className="px-6 py-2 text-lg border rounded-lg uppercase hover:bg-[rgb(38,41,53)] hover:text-white dark:hover:bg-white dark:hover:text-black ">
+                      code
+                    </button>
+                  </a>
+                  <a
+                    href="https://akshaykumar24.github.io/PharmEasy/"
+                    target="_blank"
+                  >
+                    <button className="uppercase px-6 py-2 text-lg border rounded-lg bg-[rgb(38,41,53)] text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-[rgb(38,41,53)] dark:hover:text-white">
+                      live
+                    </button>
+                  </a>
                 </div>
               </div>
               <img

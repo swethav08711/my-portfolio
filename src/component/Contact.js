@@ -13,25 +13,27 @@ const Contact = () => {
     {
       label: "email",
       icon: email,
+      link: "mailto:shwe08711@gmail.com",
     },
     {
       label: "github",
       icon: github,
+      link: "https://github.com/swethav08711",
     },
     {
       label: "linked",
       icon: linked,
+      link: "https://www.linkedin.com/in/swetha-v-23297b194/",
     },
     {
       label: "phone",
       icon: phone,
+      link: "tel:7892839931",
     },
   ];
   console.log(lang[configLanguage]?.navBar[3]);
   return (
-    <div
-      id="contact"
-    >
+    <div id="contact">
       <div className="dark:bg-[rgb(38,41,53)] dark:text-white pb-12">
         <div class="flex items-center  py-12">
           <div class="flex-grow border-t border-2 border-teal-100"></div>
@@ -45,15 +47,20 @@ const Contact = () => {
           <p className="text-xl text-gray-400 py-2">
             Ready to Collaborate? I'm Just a Message Away!
           </p>
-          <button className="px-8 py-4 border border-teal-400 my-6 hover:shadow-xl text-xl">
-            Say Hello
-          </button>
+          <a href="mailto:shwe08711@gmail.com">
+            <button className="px-8 py-4 border border-teal-400 my-6 hover:shadow-xl text-xl">
+              Say Hello
+            </button>
+          </a>
           <div className="flex  mx-auto lg:justify-between lg:w-1/4  justify-evenly w-full py-9  cursor-pointer">
             {skills.map((ele) => (
-              <img
-                className="w-11 h-11 filter invert-0 dark:invert dark:brightness-0 dark:contrast-200"
-                src={ele.icon}
-              />
+              <a href={ele.link} target="_blank">
+                <img
+                  className="w-11 h-11 filter invert-0 dark:invert dark:brightness-0 dark:contrast-200"
+                  src={ele.icon}
+                  alt={ele.label}
+                />
+              </a>
             ))}
           </div>
           <div className="flex lg:justify-around justify-center items-center flex-col lg:flex-row">

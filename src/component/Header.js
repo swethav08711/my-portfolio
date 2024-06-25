@@ -47,9 +47,14 @@ const Header = () => {
             ))}
           </ul>
 
-          <button className="font-bold uppercase  border dark:border-gray-300 border-black px-2 rounded-md ">
-            {lang[configLanguage]?.resume}
-          </button>
+          <a
+            href={require("../resources/swetha_v_resume.pdf")}
+            target="_blank"
+            download="Swetha-v-Resume"
+            className="font-bold uppercase  border dark:border-gray-300 border-black px-2 rounded-md "
+          >
+            <button>{lang[configLanguage]?.resume}</button>
+          </a>
           <select
             onChange={handleLanguage}
             className=" text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
